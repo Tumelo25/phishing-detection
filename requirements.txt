@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+numpy
+nltk
+joblib
+datasets
+flask
+flask-cors
+wordcloud
+matplotlib
