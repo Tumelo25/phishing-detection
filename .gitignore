@@ -1,4 +1,12 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
 .ipynb_checkpoints/
+
+# Models
 *.pkl
+
+# Local environment variables
+config/.env

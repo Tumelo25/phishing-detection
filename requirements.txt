@@ -8,3 +8,7 @@ flask
 flask-cors
 wordcloud
 matplotlib
+python-whois
+dnspython
+requests
+python-dotenv

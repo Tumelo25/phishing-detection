@@ -13,3 +13,8 @@ CLEAN_DATA = os.path.join(DATA_DIR, "clean_emails.csv")
 MODEL_FILE = os.path.join(MODELS_DIR, "phishing_model.pkl")
 VEC_FILE = os.path.join(MODELS_DIR, "tfidf_vectorizer.pkl")
 METRICS_FILE = os.path.join(LOGS_DIR, "metrics.txt")
+
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+
+HIBP_API_KEY = os.getenv("HIBP_API_KEY")  # Optional
